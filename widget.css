@@ -1,0 +1,46 @@
+.main-container-animated{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+  
+#widget-container{
+  font-family: {{fontName}}, sans-serif;
+}
+
+.widget-container-animated{
+  font-family: {{fontName}}, sans-serif;
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  height: 100%;
+}
+  
+#command-image{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.command-div-animated{
+  display: none;
+}
+
+#command{
+  position: absolute;
+  top: {{counterTopPosition}}%;
+  left: {{counterLeftPosition}}%;
+  font-size: {{textSize}}px;
+  color: {{fontColor}};
+  font-style: italic;
+  transform: translate(-50%, -50%);
+}
+
+#counter-value{
+  position: absolute;
+  top: calc({{counterTopPosition}}% + 20%);
+  left: {{counterLeftPosition}}%;
+  font-size: {{textSize}}px;
+  color: {{fontColor}};
+  font-style: italic;
+  transform: translate(-50%, -50%);
+}

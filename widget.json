@@ -1,0 +1,55 @@
+{
+	"commandImage": {
+		"type": "image-input",
+		"label": "Command Image"
+	},
+	"fontName": {
+		"type": "googleFont",
+		"label": "Select a Font:",
+		"value": "Roboto"
+	},
+	"counterText": {
+		"type": "text",
+		"label": "Custom Counter Text",
+		"value": "!Counter"
+	},
+	"audioInput": {
+		"type": "sound-input",
+		"label": "Some Audio"
+	},
+	"editing": {
+		"type": "checkbox",
+		"label": "Show Everything"
+	},
+	"counterCommand": {
+		"type": "text",
+		"label": "Command"
+	},
+	"textSize": {
+		"type": "slider",
+		"label": "Text Size",
+		"value": 40,
+		"min": 0,
+		"max": 100,
+		"step": 1
+	},
+	"fontColor": {
+		"type": "colorpicker",
+		"label": "Font Color",
+		"value": "#000000"
+	},
+	"counterTopPosition": {
+		"type": "number",
+		"label": "Command Top Position",
+		"value": 30,
+		"min": 0,
+		"step": 1
+	},
+	"counterLeftPosition": {
+		"type": "number",
+		"label": "Command Left Position",
+		"value": 45,
+		"min": 0,
+		"step": 1
+	}
+}
